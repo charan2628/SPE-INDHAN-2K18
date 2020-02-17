@@ -6,11 +6,11 @@ Handles user registration and event subscription through PayUMoney payment integ
 
 **TECH STACK:** PHP, MySQL, JQuery
 
-## Responsive
-![](https://charan2628-project-gifs.s3.amazonaws.com/responsive.gif)
+## Desktop view
+![](https://charan2628-project-gifs.s3.amazonaws.com/INDHAN-2K18/indhan_index.PNG)
 
-## Main Page
-![](https://charan2628-project-gifs.s3.amazonaws.com/indhan.gif)
+## Mobile view
+![](https://charan2628-project-gifs.s3.amazonaws.com/INDHAN-2K18/indhan_index_mobile.PNG)
 
 ## Note
 * All db scripts are in [DATA](./DATA) folder
