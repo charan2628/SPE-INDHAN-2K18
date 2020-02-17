@@ -1,0 +1,90 @@
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
+
+@media (min-width: 800px) {
+.timer-wrap {
+	width: 100%;
+	color: white;
+	opacity: 0.8;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	position: relative;
+	font-size: 30px;
+	font-family: 'Night Machine';
+	letter-spacing: 3px;
+	font-weight: 400;
+	/*font: 400 80px/40px Roboto,sans-serif; */
+}
+#timer sup {
+	font-size: 20px;
+	font-family: 'Night Machine';
+	font-weight: 400;
+	top: -2em;
+}
+.timer-wrap span {
+	font-family: Roboto,sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*.timer-wrap p:before {
+	content: 'EVENT STARTS IN';
+	font: 400 80px/40px Roboto,sans-serif;
+	font-size: 15px;
+	letter-spacing: 0px;
+	position: absolute;
+	left: 18%;
+	bottom: 80%;
+}*/
+}
+@media (max-width: 800px) {
+.timer-wrap {
+	width: 100%;
+	color: white;
+	opacity: 0.8;
+	position: relative;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	position: relative;
+	font-size: 18px;
+	/*font-family: 'Night Machine';*/
+	letter-spacing: 1px;
+	font-weight: 500;
+	font: 400 18px/40px Roboto,sans-serif; 
+}
+.timer-wrap p {
+
+}
+#timer sup {
+	font-size: 12px;
+	font-family: 'Night Machine',sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	top: -1em;
+	//left: -0.8em;
+}
+
+/*.timer-wrap p:before {
+	content: 'EVENT STARTS IN';
+	font: 400 80px/40px Roboto,sans-serif;
+	font-size: 8px;
+	letter-spacing: 0px;
+	position: absolute;
+	left: 11%;
+	bottom: 80%;
+}*/
+}
